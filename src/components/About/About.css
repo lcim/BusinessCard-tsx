@@ -1,0 +1,26 @@
+/* About component styling */
+
+.about, .interests {
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about, .interests, .body-text, .subheading {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+}
+
+.body-text {
+    margin-top: -0.7rem;
+    
+}
+
+.interests {
+    margin-top: -1rem; 
+}
+
+.interests .subheading{
+    margin-top: unset; 
+}
